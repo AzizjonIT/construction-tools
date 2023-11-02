@@ -1,0 +1,24 @@
+.contact_us{
+  width: 290px;
+height: 301px;
+
+}
+.contact_h2{
+    display: flex;
+    justify-content: space-between;
+margin-top: 15px;
+}
+
+.contact_title{
+  padding: 5px;
+background: var(--color-gray-100, #F4F4F4);
+border-radius: 5px;
+/* shadow-button-price */
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+color: var(--color-blue-700, #005D85);
+}
+
+.contact_img{
+    margin-bottom: 40px;
+    contain: content;
+}

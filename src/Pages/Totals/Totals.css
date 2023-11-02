@@ -1,0 +1,15 @@
+.totals_h3{
+    color: #00A0E2;
+
+}
+
+.totals_nav{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.totals_tabs{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

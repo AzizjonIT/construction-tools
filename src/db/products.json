@@ -1,0 +1,46 @@
+{
+"products": [
+  {
+    "id": 1,
+    "title": "Japanese Pruning Shears",
+    "image": "products1.png",
+    "price": "17.09 €"
+  },
+  {
+    "id": 2,
+    "title": " Crimping Tools Crimper Tools  ",
+    "image": "products2.png",
+    "price": "17.09 €"
+  },
+  {
+    "id": 3,
+    "title": "Cable lug sensor up to 260°C",
+    "image": "products3.png",
+    "price": "17.09 €"
+  },
+  {
+    "id": 4,
+    "title": "Combination Pliers China ",
+    "image": "products4.png",
+    "price": "17.09 €"
+  },
+  {
+    "id": 5,
+    "title": "TAPARIA Screw Driver Set with ",
+    "image": "products5.png",
+    "price": "17.09 €"
+  },
+  {
+    "id": 6,
+    "title": "Sulfar Screwdriver Set, Steel 31 in 1",
+    "image": "products6.png",
+    "price": "17.09 €"
+  },
+  {
+    "id": 7,
+    "title": "AGRICO TATA Heavy Duty ",
+    "image": "products7.png",
+    "price": "17.09 €"
+  }
+]
+}

@@ -1,0 +1,29 @@
+.products_cart{
+    display: flex;
+}
+
+.products_images{
+    width: 300px;
+    height: 210px;
+    border: 1px solid black;
+}
+
+.products_h3{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.products_shop{
+    margin: 10px;
+}
+
+.products_h2{
+    color: var(--color-blue-700, #005D85);
+    margin: 30px auto;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+background: var(--color-gray-100, #F4F4F4);
+padding: 5px;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}

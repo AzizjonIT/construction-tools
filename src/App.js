@@ -1,15 +1,17 @@
+import React from "react";
 
-
-import React from 'react';
-import Navbar from './components/Navbar/Navbar';
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home/Home.jsx";
+import Totals from "./Pages/Totals/Totals.jsx";
 
 function App() {
-  console.clear()
+  console.clear();
   return (
     <React.Fragment>
-
-<Navbar/>
-      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Totals/" element={<Totals />} />
+      </Routes>
     </React.Fragment>
   );
 }

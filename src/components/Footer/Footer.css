@@ -1,0 +1,32 @@
+footer{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 260px;
+padding: 15px;
+gap: 15px;
+    border-radius: 2px;
+background: var(--color-gray-100, #F4F4F4);
+}
+
+.footerh3{
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.footer_1{
+    width: 300px;
+}
+
+.footer_icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.foter_title{
+    padding: 1px;
+    text-align: center;
+    padding-top: 13px;
+    background: var(--color-gray-200, #D8D8D8);
+}
