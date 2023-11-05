@@ -1,0 +1,125 @@
+.total_images_img {
+  background-color: darkgray;
+  width: 600px;
+  height: 600px;
+}
+
+.total_carts {
+  width: 600px;
+  height: 600px;
+}
+
+.total_products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total_price {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.total_price_p {
+  padding-top: 5px;
+  color: var(--color-blue-700, #005d85);
+}
+
+.availbea {
+    margin-top: 13px;
+    margin-bottom: 30px;
+  color: #005d85;
+  text-align: center;
+  border-radius: 5px;
+  background: var(--color-gray-100, #f4f4f4);
+padding: 15px;
+height: 50px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.meter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.meter_h5{
+    transition: 0.5s;
+    padding: 10px;
+    width: 85px;
+    height: 40px;
+     border-radius: 5px;
+  background: var(--color-gray-100, #f4f4f4);
+ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.meter_h5:active{
+    color: var(--color-gray-100, #F4F4F4);
+background-color: #005d85;
+transition: 0.5s;
+}
+
+.meter_h5:hover{
+       color: var(--color-gray-100, #F4F4F4);
+background-color: #005d85;
+transition: 0.5s;
+}
+
+.meter_1{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+   gap: 10px;
+}
+
+
+.meter_h5_1{
+    transition: 0.5s;
+    padding: 10px;
+    width: 110px;
+    text-align: center;
+    height: 40px;
+     border-radius: 5px;
+  background: var(--color-gray-100, #f4f4f4);
+ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.meter_h5_1:active{
+    color: var(--color-gray-100, #F4F4F4);
+background-color: #005d85;
+transition: 0.5s;
+}
+
+.meter_h5_1:hover{
+       color: var(--color-gray-100, #F4F4F4);
+background-color: #005d85;
+transition: 0.5s;
+}
+
+.total_but{
+     color: var(--color-gray-100, #F4F4F4);
+    display: flex;
+width: 518px;
+height: 50px;
+font-size: 18px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: var(--color-blue-700, #005D85);
+}
+
+.total_but_p{
+    padding-top: 15px;
+}
+
+.bu{
+    width: 70px;
+    height: 50px;
+    background-color: #005D85;
+}
+
+.total_carts_buttons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}

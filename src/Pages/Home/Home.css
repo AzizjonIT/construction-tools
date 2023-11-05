@@ -1,3 +1,9 @@
+
+.container{
+    width: 87%;
+    margin: auto;
+}
+
 .home_images{
     display: flex;
     justify-content: space-between;
