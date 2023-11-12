@@ -3,6 +3,10 @@ import React, { useEffect, useState } from "react";
 import "./Products.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
+import "swiper/less";
+import "swiper/less/navigation";
+import "swiper/less/pagination";
+import { Link } from "react-router-dom";
 const Products = () => {
   const [Products, setProducts] = useState([]);
 
@@ -11,7 +15,7 @@ const Products = () => {
       .get(`http://localhost:9000/products`)
       .then((res) => setProducts(res.data))
       .catch((err) => console.log(err));
-  });
+  },[]);
 
     return (
       <Swiper
@@ -20,7 +24,6 @@ const Products = () => {
         rewind={true}
         navigation={true}
         loop={true}
-
         className="mySwiper"
       >
         
@@ -30,17 +33,24 @@ const Products = () => {
                 return (
                   <React.Fragment key={Products.id}>
                     <SwiperSlide>
-                      <div className="products_shop">
-                        <img
-                          className="products_images"
-                          src={
-                            process.env.PUBLIC_URL + "/Images/" + Products.image
-                          }
-                          alt=""
-                        />
-                        <h5 className="products_h3"> {Products.title} </h5>
-                        <h5 className="products_h2">17.09 €</h5>
-                      </div>
+                      <Link
+                        className="products_link"
+                        to={`/products/${Products.id}`}
+                      >
+                        <div className="products_shop">
+                          <img
+                            className="products_images"
+                            src={
+                              process.env.PUBLIC_URL +
+                              "/Images/" +
+                              Products.image
+                            }
+                            alt=""
+                          />
+                          <h5 className="products_h3"> {Products.title} </h5>
+                          <h5 className="products_h2">17.09 €</h5>
+                        </div>
+                      </Link>
                     </SwiperSlide>
                   </React.Fragment>
                 );

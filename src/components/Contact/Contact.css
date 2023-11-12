@@ -22,3 +22,17 @@ color: var(--color-blue-700, #005D85);
     margin-bottom: 40px;
     contain: content;
 }
+
+@media only screen and (max-width:390px) {
+  .contact_us{
+  width: 278px;
+height: 301px;
+
+}
+
+.contact_img{
+   width: 285px;
+    margin-bottom: 40px;
+    contain: content;
+}
+}

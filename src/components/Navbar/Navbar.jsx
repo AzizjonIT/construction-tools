@@ -1,15 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Navbar.css"
 import Navicon from "../Image/Navbar.png"
 import Navlogo from "../Image/Navlogo.png"
-// import Navserach from "../Image/Navserach.png"
 import Navuser from "../Image/Navuser.svg"
 import Navbuy from "../Image/Navbuy.png"
 import { Link } from 'react-router-dom'
 
-
+import Nav from "./Nav.jsx"
 
 const Navbar = () => {
+
+ const [inputText, setInputText] = useState("");
+ const [filteredText, setFilteredText] = useState("");
+
+ const handleInputChange = (event) => {
+   const text = event.target.value;
+   setInputText(text);
+
+   // Filtreleme işlemini gerçekleştirin (örneğin, boşlukları kaldırın)
+   const filtered = text.replace(/\s/g, ""); // Bu örnekte boşlukları kaldırıyoruz
+   setFilteredText(filtered);
+ };
+
+
   return (
     <>
       <nav className="nav_conte">
@@ -27,32 +40,20 @@ const Navbar = () => {
             <img src={Navlogo} alt="" />
           </div>
           <div className="nav_inputs">
-            <input className="nav_input" type="serach" />
+            {/* <input className="nav_input" type="serach" /> */}
+            <input type="text" value={inputText} onChange={handleInputChange} />
           </div>
           <div className="nav_users">
             <Link to={"/"}>
               <img src={Navuser} alt="" />
             </Link>
-            <Link to={"/Totals/"}>
+            <Link to={"/Buy/"}>
               <img src={Navbuy} alt="" />
             </Link>
           </div>
         </div>
         <div className="nav_menu">
-          <Link className="nav_link" to={"/"}>
-            <p>Home</p>
-          </Link>
-          <Link className="nav_link" to={"/Brands/"}>
-            <p>Brands</p>
-          </Link>
-          <Link className="nav_link" to={"/Totals/"}>
-            <p>Trade-In Program</p>
-          </Link>
-          <p>Best Buy Outlet</p>
-          <p>Druck</p>
-          <p>Clearance Products</p>
-          <p>Sonderposten</p>
-          <p>Popular Brands</p>
+          <Nav />
         </div>
       </nav>
     </>
@@ -60,4 +61,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-

@@ -4,43 +4,64 @@
     "id": 1,
     "title": "Japanese Pruning Shears",
     "image": "products1.png",
-    "price": "17.09 €"
+    "price": "17.09 €",
+    "text": "A boilerplate statement or response generally refers to a message used with minimal effort for multiple different situation..."
   },
   {
     "id": 2,
     "title": " Crimping Tools Crimper Tools  ",
     "image": "products2.png",
-    "price": "17.09 €"
+    "price": "17.09 €",
+    "text": "A boilerplate statement or response generally refers to a message used with minimal effort for multiple different situation..."
   },
   {
     "id": 3,
     "title": "Cable lug sensor up to 260°C",
     "image": "products3.png",
-    "price": "17.09 €"
+    "price": "17.09 €",
+    "text": "A boilerplate statement or response generally refers to a message used with minimal effort for multiple different situation..."
   },
   {
     "id": 4,
     "title": "Combination Pliers China ",
     "image": "products4.png",
-    "price": "17.09 €"
+    "price": "17.09 €",
+    "text": "A boilerplate statement or response generally refers to a message used with minimal effort for multiple different situation..."
   },
   {
     "id": 5,
     "title": "TAPARIA Screw Driver Set with ",
     "image": "products5.png",
-    "price": "17.09 €"
+    "price": "17.09 €",
+    "text": "A boilerplate statement or response generally refers to a message used with minimal effort for multiple different situation..."
   },
   {
     "id": 6,
-    "title": "Sulfar Screwdriver Set, Steel 31 in 1",
+    "title": "Sulfar Screwdriver Set, Steel 31 in",
     "image": "products6.png",
-    "price": "17.09 €"
+    "price": "17.09 €",
+    "text": "A boilerplate statement or response generally refers to a message used with minimal effort for multiple different situation..."
   },
   {
     "id": 7,
     "title": "AGRICO TATA Heavy Duty ",
     "image": "products7.png",
-    "price": "17.09 €"
+    "price": "17.09 €",
+    "text": "A boilerplate statement or response generally refers to a message used with minimal effort for multiple different situation..."
+  },
+  {
+    "id": 8,
+    "title": "AGRICO Jos Heavy Duty ",
+    "image": "products8.png",
+    "price": "17.09 €",
+    "text": "A boilerplate statement or response generally refers to a message used with minimal effort for multiple different situation..."
+  },
+  {
+    "id": 9,
+    "title": "AGRICO His Heavy Duty ",
+    "image": "products9.png",
+    "price": "17.09 €",
+    "text": "A boilerplate statement or response generally refers to a message used with minimal effort for multiple different situation..."
   }
 ]
 }

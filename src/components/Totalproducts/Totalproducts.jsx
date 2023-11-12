@@ -4,7 +4,7 @@ import "./Totalproducts.css";
 const Totalproducts = () => {
   return (
     <React.Fragment>
-      <div className="total_products">
+      {/* <div className="total_products">
         <div className="total_images">
           <img className="total_images_img" src="" alt="" />
         </div>
@@ -52,7 +52,7 @@ const Totalproducts = () => {
           </div>
           <h5>Produktnummer: Tt-BN-88Y-T1000</h5>
         </div>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 };

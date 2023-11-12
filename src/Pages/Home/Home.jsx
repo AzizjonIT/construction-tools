@@ -16,10 +16,10 @@ const Home = () => {
     <>
       <Navbar />
 
-      <div className="container">
+      <div className="containerr">
         <div className="home_images">
           <div className="home_images_1">
-            <img src={Home1} alt="" />
+            <img className="home_images_1_img" src={Home1} alt="" />
           </div>
           <div className="home_images_2">
             <h2 className="home_img_h21">Rubber Handle</h2>
@@ -29,7 +29,9 @@ const Home = () => {
           </div>
         </div>
         <div className="home_header">
-          <Contact />
+          <div className="home_header_contack">
+            <Contact />
+          </div>
           <div className="header_p">
             Lorem ipsum is a pseudo-Latin text used in web design, typography,
             layout, and printing in place of English to emphasise design
@@ -50,7 +52,7 @@ const Home = () => {
             layout, and printing in place of English to emphasise design
             elements over content. It's also called placeholder (or filler)
             text. It's a convenient tool for mock-ups. It helps to outline the
-            visual elements of a document or presentation, e
+            visual elements of a document or presentation.
           </div>
         </div>
         {/*  advantages_cart  */}
@@ -102,7 +104,7 @@ const Home = () => {
           </div>
         </div>
 
-        <Products/>
+        <Products />
 
         {/*  Hand Tool   */}
         <div className="Hand_Tool">
@@ -116,7 +118,7 @@ const Home = () => {
             <button className="hand_tool_but">Details</button>
           </div>
           <div className="hand_tool_cart_img">
-            <img src={Handtool1} alt="" />
+            <img className="hand_tool_cart_img_1" src={Handtool1} alt="" />
           </div>
 
           <div className="hand_tool_cart">
@@ -130,14 +132,13 @@ const Home = () => {
           </div>
 
           <div className="hand_tool_cart_img">
-            <img src={Handtool2} alt="" />
+            <img className="hand_tool_cart_img_1" src={Handtool2} alt="" />
           </div>
         </div>
 
         {/* Footer */}
 
-        <Footer/>
-
+        <Footer />
       </div>
     </>
   );

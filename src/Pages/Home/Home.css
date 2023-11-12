@@ -1,7 +1,8 @@
 
-.container{
+.containerr{
     width: 87%;
     margin: auto;
+
 }
 
 .home_images{
@@ -34,7 +35,7 @@ background-size: cover;
 .home_img_h2{
     margin-top: 193px;
     width: 310px;
-    background-color: aqua;
+   
     height: 100px;
     padding: 20px;
     background: rgba(22, 27, 51, 0.70);
@@ -133,4 +134,710 @@ display: flex;
 justify-content: space-between;
 margin-bottom: 40px;
 margin-top: 40px;
+}
+
+
+
+@media only screen and (max-width:992px) {
+  .d-flex{
+width: auto;
+}
+}
+
+@media only screen and (max-width:1479px) {
+    .home_images_1_img{
+        width: 900px;
+        height: 372px;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .home_images_1_img{
+        width: 800px;
+        height: 372px;
+    }
+
+    .header_p{
+    width: 800px;
+font-size: 15px;
+}
+
+.hand_tool_cart_img_1{
+    width: 250px;
+}
+
+.hand_tool_cart{
+    width: 250px;
+    height: 304px;
+}
+
+.hand_tool_but{
+    margin-left: 25px;
+    width: 169px;
+height: 30px;
+}
+
+.hand_tool_p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.hand_tool_h2{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+}
+
+
+@media only screen and (max-width:1280px) {
+    .home_images_1_img{
+        width: 735px;
+        height: 372px;
+    }
+    
+    .header_p{
+    width: 740px;
+font-size: 15px;
+}
+}
+
+@media only screen and (max-width:1200px) {
+    .home_images_1_img{
+        width: 640px;
+        height: 302px;
+    }
+
+    .home_images_2{
+    width: 280px;
+    height: 302px;
+   
+}
+
+.home_img_h2{
+    margin-top: 153px;
+    width: 280px;
+    height: 70px;
+    padding: 10px;
+}
+
+    .header_p{
+    width: 620px;
+font-size: 15px;
+}
+
+.hand_tool_cart_img_1{
+    width: 230px;
+}
+
+.hand_tool_cart{
+    width: 230px;
+    height: 280px;
+}
+
+.hand_tool_but{
+    margin-left: 15px;
+    margin-top: 1px;
+    width: 169px;
+height: 30px;
+}
+
+.hand_tool_p{
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hand_tool_h2{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+}
+
+
+
+@media only screen and (max-width:1060px) {
+
+ 
+
+    .home_images_1_img{
+        width: 600px;
+        height: 302px;
+    }
+
+    .home_images_2{
+    width: 280px;
+    height: 302px;
+   
+}
+
+.home_img_h2{
+    margin-top: 153px;
+    width: 280px;
+    height: 70px;
+    padding: 10px;
+}
+
+    .header_p{
+    width: 580px;
+font-size: 15px;
+}
+
+
+.hand_tool_p{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.hand_tool_cart{
+    border-radius: 5px;
+    padding: 15px;
+    width: 320px;
+    height: 374px;
+    background: var(--yellow, #F7B801);
+}
+
+.hand_tool_h2{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.hand_tool_but{
+      font-size: 17px;
+    margin-top: 5px;
+    margin-left: 45px;
+    width: 199px;
+height: 35px;
+border-radius: 5px;
+flex-shrink: 0;
+color: var(--yellow, #F7B801);
+  background-color: #141414;
+}
+
+.hand_tool_cart_img_1{
+    width: 310px;
+}
+
+.Hand_Tool{
+display: flex;
+width: 660px;
+gap: 30px;
+margin: auto;
+background-color: #141414;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+}
+
+
+@media only screen and (max-width:1010px) {
+
+ 
+
+    .home_images_1_img{
+        width: 550px;
+        height: 302px;
+    }
+
+    .home_images_2{
+    width: 280px;
+    height: 302px;
+   
+}
+
+.home_img_h2{
+    margin-top: 153px;
+    width: 280px;
+    height: 70px;
+    padding: 10px;
+}
+
+    .header_p{
+    width: 458px;
+font-size: 15px;
+}
+
+
+.hand_tool_p{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.hand_tool_cart{
+    border-radius: 5px;
+    padding: 15px;
+    width: 320px;
+    height: 374px;
+    background: var(--yellow, #F7B801);
+}
+
+.hand_tool_h2{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.hand_tool_but{
+      font-size: 17px;
+    margin-top: 5px;
+    margin-left: 45px;
+    width: 199px;
+height: 35px;
+border-radius: 5px;
+flex-shrink: 0;
+color: var(--yellow, #F7B801);
+  background-color: #141414;
+}
+
+.hand_tool_cart_img_1{
+    width: 310px;
+}
+
+
+
+}
+
+
+
+@media only screen and (max-width:1010px) {
+    .home_images_1_img{
+        width: 500px;
+        height: 272px;
+    }
+
+    .home_images_2{
+    width: 270px;
+    height: 272px;
+   
+}
+
+.home_img_h2{
+    margin-top: 127px;
+    width: 270px;
+    height: 70px;
+    padding: 10px;
+}
+
+    .header_p{
+    width: 458px;
+font-size: 15px;
+}
+
+.advantages_1 h6{
+    width: 190px;
+    font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width:885px) {
+    .home_images_1_img{
+        width: 450px;
+        height: 272px;
+    }
+
+    .home_images_2{
+    width: 270px;
+    height: 272px;
+   
+}
+
+.home_img_h2{
+    margin-top: 127px;
+    width: 270px;
+    height: 70px;
+    padding: 10px;
+}
+.home_header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+    .header_p{
+        margin-top: 20px;
+    width: 500px;
+    text-align: center;
+font-size: 15px;
+}
+.home_header_contack{
+    margin-top: 40px;
+  margin-left: 100px;
+}
+.advantages_1 h6{
+    width: 190px;
+    font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width:830px) {
+    .home_images_1_img{
+        width: 400px;
+        height: 232px;
+    }
+
+    .home_images_2{
+    width: 270px;
+    height: 232px;
+   
+}
+
+.home_img_h2{
+    margin-top: 89px;
+    width: 270px;
+    height: 70px;
+    padding: 10px;
+}
+.home_header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+    .header_p{
+        margin-top: 20px;
+    width: 500px;
+    text-align: center;
+font-size: 15px;
+}
+.home_header_contack{
+    margin-top: 40px;
+  margin-left: 100px;
+}
+.advantages_1 h6{
+    width: 190px;
+    font-size: 14px;
+}
+
+.advantages{
+   width: 530px;
+   margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.advantages_cart{
+    width: 100%;
+    height: 410px;
+}
+
+}
+
+@media only screen and (max-width:770px) {
+    .home_images_1_img{
+        width: 350px;
+        height: 232px;
+    }
+
+    .home_images_2{
+    width: 270px;
+    height: 232px;
+   
+}
+
+.home_img_h2{
+    margin-top: 89px;
+    width: 270px;
+    height: 70px;
+    padding: 10px;
+}
+.home_header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+    .header_p{
+        margin-top: 20px;
+    width: 500px;
+    text-align: center;
+font-size: 15px;
+}
+.home_header_contack{
+    margin-top: 40px;
+  margin-left: 100px;
+}
+.advantages_1 h6{
+    width: 190px;
+    font-size: 14px;
+}
+
+.advantages{
+   width: 530px;
+   margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.hand_tool_cart_img_1{
+    width: 230px;
+}
+
+.hand_tool_cart{
+    width: 230px;
+    height: 280px;
+}
+
+.hand_tool_but{
+    margin-left: 15px;
+    margin-top: 1px;
+    width: 169px;
+height: 30px;
+}
+
+.hand_tool_p{
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hand_tool_h2{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Hand_Tool{
+width: 490px;
+}
+
+}
+
+
+@media only screen and (max-width:770px) {
+    .home_images_1_img{
+        width: 100%;
+    }
+
+.home_images_2{
+    width: 310px;
+    height: 372px;
+    text-align: center;
+    background-image: url(../../Img/Home2.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+margin: auto;
+}
+.home_img_h2{
+    margin-top: 243px;
+    width: 310px;
+    background-color: aqua;
+    height: 100px;
+    padding: 20px;
+    background: rgba(22, 27, 51, 0.70);
+backdrop-filter: blur(2px);
+color: var(--yellow, #F7B801);
+
+}
+
+.home_images{
+ display: block;
+}
+}
+
+
+@media only screen and (max-width:645px) {
+.advantages{
+   width: 200px;
+   height: 500px;
+   margin-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.advantages_cart{
+    width: 100%;
+    height: 610px;
+}
+.advantages_cart_h1{
+    color: aliceblue;
+ margin-left: 45px;
+  padding-top: 35px;
+}
+}
+
+@media only screen and (max-width:575px) {
+   
+   .home_header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+    .header_p{
+        margin-top: 20px;
+    width: 400px;
+    text-align: center;
+font-size: 15px;
+}
+
+.home_header_contack{
+    margin-top: 40px;
+  margin-left: 50px;
+}
+
+
+
+.hand_tool_p{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.hand_tool_cart{
+    border-radius: 5px;
+    padding: 15px;
+    width: 320px;
+    height: 374px;
+    background: var(--yellow, #F7B801);
+}
+
+.hand_tool_h2{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.hand_tool_but{
+      font-size: 17px;
+    margin-top: 5px;
+    margin-left: 45px;
+    width: 199px;
+height: 35px;
+border-radius: 5px;
+flex-shrink: 0;
+color: var(--yellow, #F7B801);
+  background-color: #141414;
+}
+
+.hand_tool_cart_img_1{
+    width: 320px;
+}
+
+.Hand_Tool{
+display: flex;
+width: 320px;
+gap: 30px;
+margin: auto;
+background-color: #141414;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+}
+
+@media only screen and (max-width:475px) {
+   
+   .home_header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+    .header_p{
+        margin-top: 20px;
+    width: 300px;
+    text-align: center;
+font-size: 15px;
+}
+.home_header_contack{
+    margin-top: 40px;
+  margin-left: 5px;
+}
+}
+
+@media only screen and (max-width:390px) {
+   
+   .home_header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 280px;
+    display: block;
+    margin: auto;
+}
+    .header_p{
+        margin-top: 20px;
+    width: 280px;
+    text-align: center;
+font-size: 15px;
+}
+.home_header_contack{
+    margin-top: 40px;
+  margin-left: 1px;
+}
+
+.home_images_2{
+    width: 280px;
+}
+
+.home_img_h2{
+    width: 280px;
+}
+
+
+.hand_tool_cart{
+    border-radius: 5px;
+    padding: 15px;
+    width: 280px;
+    height: 374px;
+    background: var(--yellow, #F7B801);
+}
+
+
+
+
+.hand_tool_but{
+      font-size: 17px;
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 199px;
+height: 35px;
+border-radius: 5px;
+flex-shrink: 0;
+color: var(--yellow, #F7B801);
+}
+
+.hand_tool_cart_img_1{
+    width: 280px;
+}
+
+.Hand_Tool{
+display: flex;
+width: 280px;
+gap: 30px;
+margin: auto;
+
+display: grid;
+grid-template-columns: repeat(1,1fr);
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
 }

@@ -55,7 +55,7 @@ function FillExample() {
         typography, font, or layout. Lorem ipsum is mostly a part of a Latin
         text by the classical author and philosopher
       </Tab>
-      <Tab eventKey="data-sheet" title="Data sheet">
+      <Tab className="tabs_5" eventKey="data-sheet" title="Data sheet">
         Lorem ipsum is a pseudo-Latin text used in web design, typography,
         layout, and printing in place of English to emphasise design elements
         ovl author and philosopher

@@ -1,0 +1,143 @@
+.brands_nav{
+    padding-left: 17px;
+    display: flex;
+background: var(--color-gray-100, #F4F4F4);
+height: 59px;
+
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+
+.brands_h5{
+   color: var(--color-blue-700, #005D85); 
+}
+
+.category{
+    width: 270px;
+ 
+}
+
+
+
+.category_1{
+    display: flex;
+width: 270px;
+padding: 13px 15px;
+justify-content: center;
+align-items: center;
+    border-radius: 5px 5px 0px 0px;
+background: var(--color-gray-200, #D8D8D8);
+}
+
+.category_h6:active{
+        display: flex;
+
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+color: var(--color-blue-700, #005D85);
+padding: 19px 15px;
+align-items: center;
+border-bottom: 1px solid var(--color-blue-700, #005D85);
+background: var(--yellow, #F7B801);
+transition: 0.2s;
+}
+
+.category_h6{
+padding: 15px 15px  ;
+        display: flex;
+align-items: center;
+transition: 0.2s;
+
+}
+
+.category_contact{
+    margin-top: 30px;
+    width: 270px;
+}
+
+.brnds_hr{
+ padding: 0;
+    margin: 0;
+}
+
+.category_cart{
+    width: 270px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.category__filter{
+    margin-top: 17px;
+       display: flex;
+width: 270px;
+padding: 13px 15px;
+justify-content: center;
+align-items: center;
+    border-radius: 5px 5px 0px 0px;
+background: var(--color-gray-200, #D8D8D8);
+
+}
+
+
+.btn{
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+    height: 47px;
+    border-radius: 0px;
+    background-color: inherit;
+    color: black;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.launch_but{
+    width: 85px;
+    height: 40px;
+}
+
+.button_launch{
+    margin-left: auto;
+    display: none;
+}
+
+@media only screen and (max-width:1150px) {
+    .button_launch{
+    margin-left: auto;
+    display: block;
+}
+.category_cart{
+    display: none;
+}
+
+.category{
+    width: 270px;
+}
+.category_1{
+width: 270px;
+}
+.category_contact{
+    width: 270px;
+}
+.category_cart{
+    width: 270px;
+}
+.category__filter{
+width: 270px;
+}
+.btn{
+    width: 270px;
+}
+
+.category_contact{
+   display: block;
+}
+
+}
