@@ -134,7 +134,7 @@
 .total_carts_buttons {
   margin-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 40px;
 }
 

@@ -10,7 +10,9 @@ const Buy = () => {
     if (isEmpty) {
         return (
             <React.Fragment>
-                salom
+                <button>-</button>
+                <h1>buy</h1>
+                <button>+</button>
             </React.Fragment>
         )
     } else {

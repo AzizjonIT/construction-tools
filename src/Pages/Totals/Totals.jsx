@@ -101,8 +101,8 @@ useEffect(() => {
                 <h6 className="meter_h5_1">BNL90k</h6>
               </div>
               <div className="total_carts_buttons">
-                <div className="">
-                  {/* <button
+                {/* <div className="">
+                  <button
                     onClick={(e) =>
                       updateItemQuantity(Products.id, Products.quantity - 1)
                     }
@@ -116,9 +116,9 @@ useEffect(() => {
                     }
                   >
                     +
-                  </button> */}
+                  </button>
                   <div></div>
-                </div>
+                </div> */}
                 <div className="total_but">
                   <p className="total_but_p" onClick={() => addItem(Products)}>
                     In den Warenkorb

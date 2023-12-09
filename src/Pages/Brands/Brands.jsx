@@ -26,6 +26,7 @@ const Brands = () => {
         </div>
         <div className="brands">
           <div className="category_cart">
+            
             <div className="category">
               <h6 className="category_1">Category</h6>
               <h6 className="category_h6">Laser sensors</h6>

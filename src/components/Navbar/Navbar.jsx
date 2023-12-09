@@ -39,15 +39,12 @@ const Navbar = () => {
           <div className="nav_logo_img">
             <img src={Navlogo} alt="" />
           </div>
-          <div className="nav_inputs">
-            {/* <input className="nav_input" type="serach" /> */}
-            <input type="text" value={inputText} onChange={handleInputChange} />
-          </div>
+         
           <div className="nav_users">
             <Link to={"/"}>
               <img src={Navuser} alt="" />
             </Link>
-            <Link to={"/Buy/"}>
+            <Link to={"/"}>
               <img src={Navbuy} alt="" />
             </Link>
           </div>
